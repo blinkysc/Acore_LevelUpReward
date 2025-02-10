@@ -112,7 +112,7 @@ local function GrantReward(event, player, oldLevel)
     -- Check if player is a bot using account information
     if IsPlayerBot(player) then
         -- Optionally log bot detection
-        print(string.format("LevelUpReward: Skipping reward for bot account (character: %s)", player:GetName()))
+        -- print(string.format("LevelUpReward: Skipping reward for bot account (character: %s)", player:GetName()))
         return false
     end
     
